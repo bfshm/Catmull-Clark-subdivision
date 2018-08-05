@@ -1,0 +1,56 @@
+#  QUADRILATERAL MESH
+#  Number of faces: 16
+
+#  Sharp Feature Classification:
+#  Vertex_Smooth                 0
+#  Vertex_Dart                   1
+#  Vertex_Crease                 2
+#  Vertex_Corner                 3
+#  Vertex_Conical                4
+#  Vertex_Cusp                   5
+ 
+#  Edge_Smooth                   0
+#  Edge_Boundary                 1
+#  Edge_Crease                   2
+ 
+#  The list of feature vertices can be omitted if VertexType = 0-3.
+ 
+#  List of vertices (starting index 1):
+v  4.585786 4.585786 0.000000
+v  -4.585786 4.585786 0.000000
+v  -4.585786 -4.585786 0.000000
+v  4.585786 -4.585786 0.000000
+v  4.585786 4.585786 2.000000
+v  -4.585786 4.585786 2.000000
+v  -4.585786 -4.585786 2.000000
+v  4.585786 -4.585786 2.000000
+v  6.000000 6.000000 0.000000
+v  -6.000000 6.000000 0.000000
+v  -6.000000 -6.000000 0.000000
+v  6.000000 -6.000000 0.000000
+v  6.000000 6.000000 2.000000
+v  -6.000000 6.000000 2.000000
+v  -6.000000 -6.000000 2.000000
+v  6.000000 -6.000000 2.000000
+
+#  List of faces:
+f  1 9 12 4
+f  1 2 10 9
+f  2 3 11 10
+f  3 4 12 11
+f  9 13 16 12
+f  9 10 14 13
+f  10 11 15 14
+f  11 12 16 15
+f  5 8 16 13
+f  13 14 6 5
+f  14 15 7 6
+f  15 16 8 7
+f  1 4 8 5
+f  5 6 2 1
+f  6 7 3 2
+f  7 8 4 3
+c 0 1 0
+#  List of boundary/crease edges (StartID, EndID, EdgeType):
+
+#  List of boundary/crease/sharp vertices (VertexID, VertexType):
